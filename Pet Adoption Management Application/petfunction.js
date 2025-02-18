@@ -1,4 +1,3 @@
-// JavaScript to dynamically populate pet data
 const pets = [
     { name: "Sophie", type: "Cat", breed: "Ragdoll", age: "1 year", image: "sophie.png", link: "pet1info.html" },
     { name: "Charlie", type: "Dog", breed: "Golden Retriever", age: "3 years", image: "charlie.jpeg", link: "pet2info.html" },
@@ -14,7 +13,6 @@ const pets = [
     { name: "Rocky", type: "Dog", breed: "German Shepherd", age: "4 years", image: "rocky.jpeg", link: "pet12info.html" }
 ];
 
-// Function to generate pet cards dynamically
 function displayPets() {
     const petList = document.getElementById('pet-list');
 
@@ -34,5 +32,4 @@ function displayPets() {
         petList.appendChild(petCard);
 }
 
-// Call the function when the page loads
 document.addEventListener('DOMContentLoaded', displayPets);
