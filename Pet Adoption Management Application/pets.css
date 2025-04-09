@@ -1,38 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bruno Details</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-    <img src="/Users/aidengill/Downloads/Pet Adoption Management Application/Pet images/bruno.png" class="card_img_top" alt="Bruno the Boxer">
-
-    <p>Type: Dog</p>
-    <p>Breed: Boxer</p>
-    <p>Sex: Male</p>
-    <p>Color: Brindle with white markings and brown eyes</p>
-    <p>Spayed / Neutered: Yes</p>
-    <p>Age: 4 Years</p>
-    <p>Animal ID: 85321</p>
-    <p>Microchip Number: 985112008765442</p>
-
-    <p>Status:</p>
-    <ul>
-        <li>Health checked.</li>
-        <li>Vaccinations up to date.</li>
-        <li>Regularly dewormed.</li>
-        <li>Microchipped.</li>
-    </ul>
-
-    <p>A Little Bit About Me:</p>
-    <p>Bruno is a playful and strong Boxer with a lot of energy to burn. He loves playing fetch and enjoys running in open spaces. Bruno is loyal and affectionate and will bond deeply with his family. He’s great with kids and other pets, though he can sometimes get overly excited. Bruno would do best with an active family or individual who can provide him with plenty of exercise.</p>
-
-    <a href="file:///Users/aidengill/pets.html" class="link">Back to home page</a>
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+body {
+    background-image: url('https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&h=1080');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+  
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px #000;
+  }
+  
+  .container {
+    padding-top: 40px;
+  }
+  
+  .btn {
+    margin: 10px auto;
+    display: block;
+  }
+  
