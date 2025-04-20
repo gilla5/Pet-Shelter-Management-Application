@@ -2,7 +2,7 @@ let currentIndex = 0;
 let pets = [];
 const cardsContainer = document.getElementById("petCards");
 const loadMoreBtn = document.getElementById("loadMoreBtn");
-const blobId = 'REPLACE_WITH_YOUR_REAL_BLOB_ID'; // Replace this with your actual blob ID
+const blobId = 'uuidv4';
 const apiUrl = `http://localhost:3000/api/jsonBlob/${blobId}`;
 
 // Load pets on page load
