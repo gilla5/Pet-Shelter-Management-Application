@@ -42,7 +42,7 @@ document.getElementById('createPetForm').addEventListener('submit', (e) => {
         breed,
         age,
         description,
-        image: "https://placekitten.com/200/304" // Placeholder image
+        image: "https://placekitten.com/200/304"
     };
 
     pets.push(newPet);
